@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Account &amp; data deletion — CrewOS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #eef1f8;
+      --surface: #ffffff;
+      --text-primary: #0d1226;
+      --text-secondary: #4a5270;
+      --border: #e0e4f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Roboto, system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+    }
+    .app-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 16px;
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+    }
+    .app-bar h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    main {
+      padding: 16px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    main > article.block + article.block {
+      margin-top: 16px;
+    }
+    main > article.block + .note {
+      margin-top: 16px;
+    }
+    main > .note + .spacer-8 {
+      margin-top: 16px;
+    }
+    .spacer-8 {
+      height: 8px;
+      margin: 0;
+      padding: 0;
+    }
+    main > .spacer-8 + article.block {
+      margin-top: 16px;
+    }
+    .block h2 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .block h2 + p {
+      margin-top: 0;
+    }
+    .block p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      white-space: pre-line;
+    }
+    .note {
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <header class="app-bar">
+    <h1>Account &amp; data deletion</h1>
+  </header>
+  <main>
+    <article class="block">
+      <h2>Overview</h2>
+      <p>CrewOS is used inside an organisation. Deleting your login or personal data may require your organisation owner and/or our support team so we can verify who is asking and avoid removing records that are still needed for payroll, safety, tax, or contract obligations.</p>
+    </article>
+    <article class="block">
+      <h2>What may be deleted</h2>
+      <p>When we complete a verified deletion for your account, we aim to remove or anonymise your CrewOS profile, authentication linkage, device tokens where applicable, and the personal data in records tied to you—such as task assignments, attendance rows, and photos you uploaded—subject to legal retention rules. Your organisation’s copy of historical reports or exports outside CrewOS is outside our control. Deletion is often permanent and cannot be undone. We may retain certain data where required by law.</p>
+    </article>
+    <article class="block">
+      <h2>How to request deletion</h2>
+      <p>Option 1 – From CrewOS:
+Workers and managers: ask your organisation owner to remove you from the team or deactivate your CrewOS user. Owners: use in-app settings and team management to remove members; for full workspace closure, use support.
+
+Option 2 – Google Play:
+Open the CrewOS listing on Google Play and use “Contact developer” or the support link. Say you want to delete your CrewOS account and data. Include the phone number or Google account email you use with CrewOS and your organisation name.
+
+Option 3 – Email:
+Email support from an address we can match to your account (or include your registered phone number and organisation name). Clearly state that you want your CrewOS account and personal data deleted. Signing out of CrewOS does not automatically erase server-side records.</p>
+    </article>
+    <article class="block">
+      <h2>After you request</h2>
+      <p>We will verify your identity (and coordinate with your organisation owner when your data is shared with their workspace). We then delete or anonymise data as described above and will confirm when processing is complete where practicable.</p>
+    </article>
+    <article class="block">
+      <h2>How long it takes</h2>
+      <p>We aim to confirm and complete verified deletion or anonymisation within a commercially reasonable time—often within 30 days—subject to backup cycles, legal holds, or abuse investigations. Complex organisation-wide closures may take longer.</p>
+    </article>
+    <p class="note">For more on how CrewOS uses data, read “Terms &amp; Privacy” in the app.</p>
+    <div class="spacer-8" aria-hidden="true"></div>
+    <article class="block">
+      <h2>Contact</h2>
+      <p>Privacy, legal, and deletion requests for CrewOS: help@anvaix.com
+General support: help@anvaix.com
+Also use the contact option on your CrewOS Google Play listing.</p>
+    </article>
+  </main>
+</body>
+</html>
